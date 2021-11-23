@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { schema, configReg} from './configForms'
 
 export const useForms = ({dispatch, getValueInput, state }) => {

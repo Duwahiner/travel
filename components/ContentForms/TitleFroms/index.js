@@ -14,7 +14,6 @@ export const TitleFroms = ({ theme, title, subTitle }) => {
             fontFamily='RobotoBlack'
             title={title}
             fontSize={['30px']}
-            textAlign='center'
             color={theme.colors.title}
           />
         </Grid>
@@ -25,7 +24,6 @@ export const TitleFroms = ({ theme, title, subTitle }) => {
             fontFamily='RobotoLight'
             title={subTitle}
             fontSize={['16px']}
-            textAlign='center'
             color={theme.colors.title}
           />
         </Grid>

@@ -1,4 +1,4 @@
-import { Paper, Grow, Grid } from '@mui/material'
+import { Paper, Grid, Fade } from '@mui/material'
 import PropTypes from 'prop-types'
 
 import { Text } from '../Text'
@@ -10,7 +10,7 @@ import styles from './lightbox.module.scss'
 
 export const Lightbox = ({ theme, show, message }) => {
   return (
-    <Grow in={show} className={styles.container}>
+    <Fade in={show} timeout={1000} className={styles.container}>
       <Paper sx={{ borderRadius: '0px' }} elevation={4}>
         <WrapperContainer className={styles.wrapperContainer}>
           <Grid container alignItems='center' >
@@ -31,7 +31,7 @@ export const Lightbox = ({ theme, show, message }) => {
           </Grid>
         </WrapperContainer>
       </Paper>
-    </Grow>
+    </Fade>
   )
 }
 

@@ -28,13 +28,14 @@ export const ContentForms = ({
       <WrapperContainer className={styles.wrapperContainer}>
         <ContainerForms>
           <Grid container className={styles.contentGridItemsForm}>
-            <Grid container item xs={12} sm={12} md={12} lg={12} >
+            <Grid container item xs={12} sm={12} md={12} lg={12} justifyContent='flex-start'>
               <TitleFroms 
                 theme={theme}
                 title='Hola, bienvenido'
                 subTitle={
                   data.activeItemMenu.activeItem
-                    ? `Sabemos que quieres viajar en un ${data.activeItemMenu.activeItem}`
+                    ? `Sabemos que quieres viajar en un ${data.activeItemMenu.activeItem},
+                    por favor diligencia el siguiente formulario`
                     : ''
                 }
               />

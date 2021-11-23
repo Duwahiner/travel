@@ -43,7 +43,6 @@ export const LabelInputForms = ({
                   fontFamily='RobotoMedium'
                   title={titleLabel}
                   fontSize='13px'
-                  textAlign='center'
                   color={theme.colors.colorText}
                 />
               </Grid>
@@ -63,13 +62,13 @@ export const LabelInputForms = ({
                 />
               </Grid>
 
-              <ContentWarning container item xs={12} sm={12} md={12} lg={12} sx={{ height: '12px'}}>
+              <ContentWarning container item xs={12} sm={12} md={12} lg={12} sx={{ height: '15px'}}>
                 <Text
                   type='span'
                   fontFamily='RobotoMediumItalic'
                   title={messageError}
                   fontSize='11px'
-                  textAlign='center'
+                  lineHeight='9px'
                   color='red'
                 />
               </ContentWarning>

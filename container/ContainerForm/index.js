@@ -73,7 +73,7 @@ const ContainerForm = (props) => {
     }, 2000)
   }
 
-  // Notificacion de exito, una ves los dato hayan guardado con exitos.
+  // Notificación de éxito, una ves los dato hayan guardado con éxitos.
   const notifications = (time) => {
     dispatch(getNotifications(true))
 
