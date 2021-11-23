@@ -1,0 +1,52 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: transparent;
+  position: relative;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.wrapperContainer {
+  height: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  @media (max-width: 920px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.contentMenuButton {
+  @media (max-width: 920px) {
+  }
+}
+
+.contentGridItemsForm {
+  max-width: 450px;
+  min-width: 320px;
+  background-color: $bgInput;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: -6px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  .marginTop {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .marginTopGrid {
+    margin-top: 10px;
+  }
+}

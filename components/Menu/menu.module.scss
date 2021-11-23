@@ -1,0 +1,114 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  width: auto;
+
+  @media (max-width: 920px) {
+    width: 50%;
+    min-width: 400px;
+    height: calc(100vh - 60px);
+    position: absolute;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadeRight;
+    background-color: $bgInput; 
+    padding: 30px;
+    box-sizing: border-box;
+    top: 60px;
+    right: -100%;
+    opacity: 0;
+    z-index: 10;
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+.wrapperContainer {
+  width: auto;
+  height: 100%;
+
+  @media (max-width: 920px) {
+    width: 100%;
+  }
+}
+
+.contentMenu {
+  padding: 0px;
+  flex-direction: row;
+
+  @media (max-width: 920px) {
+    width: 100%;
+    flex-direction: column;
+    background-color: transparent;
+  }
+}
+
+.linkA {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  @media (max-width: 920px) {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+}
+
+.fadeLeft {
+  width: auto;
+  
+  @media (max-width: 920px) {
+    width: 50%;
+    min-width: 400px;
+    height: calc(100vh - 60px);
+    position: absolute;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-name: fadeLeft;
+    background-color: $bgInput; 
+    padding: 30px;
+    box-sizing: border-box;
+    top: 60px;
+    right: -100%;
+    opacity: 0;
+    z-index: 10;
+    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+
+  to {
+    right: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    right: 0%;
+    opacity: 1;
+  }
+
+  to {
+    right: -100%;
+    opacity: 1;
+  }
+}

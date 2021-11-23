@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Travel
+---------------------------------------------------------------------------------------------------
+App web para la gestion de datos personales al momento de viajar.
 
-## Getting Started
+## Asegúrese de instalar Node.js y NPM O Yarn si no los tiene instalado en su maquina (pc).
+* [Node.js](https://nodejs.org/es/download/) - Link de descargar
+* [NPM](https://www.npmjs.com/package/download) - Link de descargar
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) - Link de descargar
+-----------------------------------------------------------------------------------------------------
 
-First, run the development server:
+## Instalación del proyecto local:
+    npm install
+    yarn install
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Una vez haya instaldo las dependencias del proyecto, ejecúte:
+    npm run dev
+    yarn dev
+    Abra el navegador y escriba: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Despliegue a producción.
+    Primer paso ->> npm run build
+    Segundo paso ->> npm start
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    Primer paso ->> yarn build
+    Segundo paso ->> yarn start
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Otra opción de despliegue a producción. (Recomendado)
+* [Despliegue](https://nextjs.org/docs/deployment) - Link opciones de despliegue
+-----------------------------------------------------------------------------------------------------
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Bien hecho, disfruta de la Landing Travel:
+    Gracias por la paciencia
 
-## Learn More
+## License
+slang is licensed under the MIT license.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

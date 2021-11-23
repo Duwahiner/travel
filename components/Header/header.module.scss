@@ -1,0 +1,23 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: transparent;
+  position: relative;
+}
+
+.wrapperContainer {
+  height: 60px;
+  border-bottom: solid 1px $bgImg;
+  box-sizing: border-box;
+  z-index: 10;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.contentMenuButton {
+  display: none;
+
+  @media (max-width: 920px) {
+    display: flex;
+  }
+}

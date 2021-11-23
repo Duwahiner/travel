@@ -1,0 +1,24 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: $bgShadow;
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 100%;
+  z-index: 1000;
+  padding: 0px;
+  top: 0;
+  bottom: 0;
+}
+
+.wrapperContainer {
+  background-color: $bgInput;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 400px;
+  max-width: 300px;
+  z-index: 10;
+}

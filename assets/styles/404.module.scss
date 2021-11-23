@@ -1,0 +1,10 @@
+@import '../styles/global-config';
+
+.wrapperContainer {
+  height: 100vh;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  // max-width: 1200px;
+}

@@ -1,0 +1,18 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: transparent;
+}
+
+.wrapperContainer {
+  height: auto;
+}
+
+.contentMenuButton {
+  @media (max-width: 920px) {
+  }
+}
+
+.marginBottom {
+  margin-bottom: 6px;
+}

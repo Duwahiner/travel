@@ -1,0 +1,27 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: transparent;
+  position: relative;
+  padding-left: 40px;
+  display: flex; 
+  align-items: center;
+
+  @media (max-width: 920px) {
+    display: flex; 
+    padding-left: 20px;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: rgb(219, 215, 215)(219, 215, 215);
+  }
+}
+
+.contentTitle {
+  h1 {
+    text-shadow: 0px 2.8px 2px $bgAlerts;
+    @media (max-width: 920px) {
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}

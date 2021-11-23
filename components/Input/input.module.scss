@@ -1,0 +1,24 @@
+@import '../../assets/styles/global-config';
+
+.inputText {
+  width: 100%;
+  height: 100%;
+  font-family: $RobotoBoldFont;
+  font-size: 13px;
+  color: $title;
+  padding: 0px 15px;
+  outline: none;
+  box-sizing: border-box;
+  line-height: 40px;
+  border-radius: 3px;
+  background-color: $bgInput;
+  &::placeholder {
+      font-family: $RobotoLightItalicFont;
+      font-size: 13px;
+      color: $placeholder;
+  }
+
+  &:focus{
+    border: solid 1px $title;
+  }
+}

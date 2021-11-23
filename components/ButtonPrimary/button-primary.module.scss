@@ -1,0 +1,28 @@
+@import '../../assets/styles/global-config';
+
+.buttonPrimary {
+  padding: 14px !important;
+  max-width: 200px;
+  letter-spacing: 1pt;
+  background-color: $bgMenu;
+  border-radius: 50px !important;
+  border: solid 2px transparent !important;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $bgInput;
+    color: $title;
+    border: solid 2px $bgMenu !important;
+  }
+}
+
+.buttonPrimaryDisabled {
+  padding: 14px !important;
+  max-width: 200px;
+  letter-spacing: 1pt;
+  background-color: $bgImg;
+  border-radius: 50px !important;
+  border: solid 2px transparent !important;
+  cursor: not-allowed;
+
+}
