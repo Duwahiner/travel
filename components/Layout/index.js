@@ -16,7 +16,7 @@ const Layout = ({
   screen
 }) => {
   return (
-    <Container className={styles.container}>
+    <Container className={styles.container} bg='red'>
       <WrapperContainer className={styles.wrapperContainer}>
         <header className={styles.layoutHeader}>
           <Header

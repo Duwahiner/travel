@@ -14,7 +14,7 @@ export const CurrentsTitles = ({ theme, valuesText }) => {
           <Text
             type='h1'
             fontFamily='RobotoBlack'
-            title={`Viaja por colombia con ${valuesText}`}
+            title={`Viaja por Colombia con ${valuesText}`}
             fontSize={['60px', '80px', '100px']}
             textAlign=''
             color={theme.colors.bgInput}

@@ -76,11 +76,12 @@
     background-color: $bgInput; 
     padding: 30px;
     box-sizing: border-box;
+    display: flex;
     top: 60px;
     right: -100%;
     opacity: 0;
     z-index: 10;
-    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px 5px 8px rgba(97, 95, 95, 0.1);
   }
 
   @media (max-width: 480px) {
@@ -109,6 +110,6 @@
 
   to {
     right: -100%;
-    opacity: 1;
+    opacity: 0;
   }
 }
