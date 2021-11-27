@@ -67,9 +67,9 @@ const ContainerForm = (props) => {
         return ({ ...val, isValide: false })
       })
 
-      console.log('===========================>>> Data Forms')
+      console.log('======================================>>> Data Forms')
       console.log(values)
-      console.log('Data Forms <<<============================')
+      console.log('Data Forms <<<=======================================')
     }, 2000)
   }
 
